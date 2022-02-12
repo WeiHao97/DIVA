@@ -51,7 +51,7 @@ if mode not in ['m','r','d']:
 es = {'file_name': tf.TensorSpec(shape=(), dtype=tf.string, name=None),
  'image': tf.TensorSpec(shape=(224, 224, 3), dtype=tf.float32, name=None),
  'label': tf.TensorSpec(shape=(), dtype=tf.int64, name=None)}
-mydataset = tf.data.experimental.load("../../datasets/ImageNet/pruning/3kImages",es).batch(BATCH_SIZE).prefetch(1)
+mydataset = tf.data.experimental.load("../../datasets/pruning/3kImages",es).batch(BATCH_SIZE).prefetch(1)
 
 if mode == 'm':
     p_model = tf.keras.applications.MobileNet(input_shape= (img_rows, img_cols,3))
