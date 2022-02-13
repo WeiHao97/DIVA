@@ -37,7 +37,7 @@ run attacking scripts with python3
 - The attack results, including generated images, filters and statistics, are stored under quantization/ImageNet/results
 
 ### Evaluation
-Run quantization/ImageNet/quantizationEvaluation.ipynb with jupyter notebook.
+Run quantizationEvaluation.ipynb with jupyter notebook.
 Note: for the DSSIM part, please download from https://github.com/kornelski/dssim
 
 This evaluation includes:
