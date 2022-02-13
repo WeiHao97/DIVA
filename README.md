@@ -1,7 +1,7 @@
 # A Tall of Two Models: Constructing Evasive Attacks on Edge Models
 
 ## Dependencies
-_______________________________________________________________________________
+
 - On server:
 
 >Install via ``pip``: ``pip install notebook numpy==1.19.5 tensorflow==2.4.1 keras==2.4.3 tensorflow-model-optimization keras-vggface matplotlib livelossplot spicy PIL tensorflow_datasets sklearn seaborn pandas`` with Python 3.8.8
@@ -15,7 +15,6 @@ _______________________________________________________________________________
 
 
 ## Machine Configurations
-_______________________________________________________________________________
 
 All experiments on the 'Server' are conducted on a server with four Intel 20-core Xeon 6230 CPUs, 376 GB of RAM, and eight Nvidia GeForce RTX 2080 Ti GPUs each with 11 GB memory.
 
