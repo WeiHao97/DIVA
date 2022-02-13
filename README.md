@@ -41,7 +41,7 @@
     │   ├── generateImagePerClass.ipynb
     │   ├── attacks
     │   │   ├── DIVA_pqat.py, DIVA_prune.py, PGD_pqat.py, PGD_prune.py
-    │   ├── evaluation
+    │   ├── pruningEvaluation.ipynb
     │   ├── results
     │   │   ├── prune
     │   │   │   ├── DIVA
