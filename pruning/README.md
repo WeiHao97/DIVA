@@ -56,6 +56,6 @@ This evaluation includes:
 - Basic Stats: steps, time, success number
 - DSSIM Data
 - Confidence Delta Calculation
-- Stability Analysis
+- Evasion Cost
 
 The result is saved in pruning/results/evaluation.csv
