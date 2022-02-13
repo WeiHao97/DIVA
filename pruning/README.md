@@ -1,20 +1,21 @@
 # README
+This directory contains code corresponding to section 5.4 of the paper.
 
 ## Dependencies
 
+### Datasets
+
+- Download ImageNet2012(https://image-net.org/) and extract files under ``DIVA/datasets/ImagNet``.
+
 ### Weights
 
-Please generate full-precision models for each network (ResNet, DenseNet, MobileNet) with ImageNet dataset. 
+Please use '../quantization/ImageNet/ model_generate_*.ipynb' to generate full-precision models for each network (ResNet, DenseNet, MobileNet).
 
 The 3 trained model should be saved as 
 
 - weights/fp_model_40_resnet50.h5
 - weights/fp_model_40_densenet121.h5
 - weights/fp_model_40_mobilenet.h5
-
-### Datasets
-
-- ImageNet2012: under datasets/ImageNet
 
 ## Workflow
 
@@ -49,4 +50,13 @@ cd into pruning/attacks and run scripts with python3
 - The attack results, including generated images, filters and statistics, are stored under pruning/results
 
 ### Evaluation
-See pruning/evaluation/README.md for details.
+Run pruning/pruningEvaluation.ipynb with jupyter notebook.
+Note: for the DSSIM part, please download from https://github.com/kornelski/dssim
+
+This evaluation includes:
+- Basic Stats: steps, time, success number
+- DSSIM Data
+- Confidence Delta Calculation
+- Stability Analysis
+
+The result is saved in pruning/results/evaluation.csv

@@ -7,5 +7,6 @@ The workfollow is as follow:
 - Generate models (full-presicion, quantized and surrogate full-presicion) for three architectures (ResNet50, MobileNet and DenseNet121) using model_generate_*.ipynb
 - Generate evaluation dataset which contains 3k images agreed upon all 9 models
 - Create DIVA (whitebox and semi-blackbox)/PGD attacks using .py scripts
-- number of successful top-1/top-5 attack can be found in stdout and in evaluation notebook.
+- number of successful top-1/top-5 attacks can be found in stdout and in evaluation notebook (../evaluation/quantisationEvaluation.ipynb).
+- Analysis of confidence drops can be found in evaluation notebook (../evaluation/quantisationEvaluation.ipynb).
 
