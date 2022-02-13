@@ -47,3 +47,6 @@ cd into pruning/attacks and run scripts with python3
   - Example: `python3 DIVA_pqat.py r 0` should run the DIVA attack against pruned and quantized ResNet model on GPU 0
 
 - The attack results, including generated images, filters and statistics, are stored under pruning/results
+
+### Evaluation
+See pruning/evaluation/README.md for details.
