@@ -64,10 +64,11 @@ All experiments on the 'edge' are conducted on a cloudlab (https://www.cloudlab.
 > Required Packages 
 
 ============================
-On the server:
+- On server:
 
 Install via ``pip``: ``pip install notebook numpy==1.19.5 tensorflow==2.4.1 keras==2.4.3 tensorflow-model-optimization keras-vggface matplotlib livelossplot spicy PIL tensorflow_datasets sklearn seaborn pandas`` with Python 3.8.8
+``pip install .`` under DIVA/robustness
 
-On the Edge:``python3 -m pip install notebook tflite-runtime`` with Python 3.8.8
+- On Edge:``python3 -m pip install notebook tflite-runtime`` with Python 3.8.8
 
 ============================
