@@ -1,5 +1,7 @@
 robustness package 
+
 ================== Install via ``pip``: ``pip install .`` 
+
 This directory is derived from https://github.com/MadryLab/robustness
 
 It contains code (DIVA_under_robust_trained_model.ipynb inside notebooks) corresponding to section 5.3 of the paper.
