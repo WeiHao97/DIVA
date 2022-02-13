@@ -1,4 +1,5 @@
 # A Tall of Two Models: Constructing Evasive Attacks on Edge Models
+
 ============================
 
 > File Structures
@@ -6,11 +7,53 @@
     .
     ├── datasets
     │   ├── ImageNet
-    │   ├── quantization
-    │   │   ├── 3kImages
+    │   │   ├── imagenet stuff
+    │   │   ├── quantization
+    │   │   │   ├── 3kImages
     │   ├── pruning
-    │   │   ├── 3kImages
-    └── ...
+    │   │   │   ├── 3kImages
+    │   ├── Pubfig
+    ├── weights
+    ├── quantization
+    │   ├── ImageNet
+    │   │   ├── attacks.py
+    │   │   ├── ModelGen.ipynb
+    │   │   ├── generateImagePerClass.ipynb
+    │   │   ├── results
+    │   │   │   ├── WB
+    │   │   │   ├── PGD
+    │   │   │   ├── SemiBB
+    │   ├── evaluation
+    │   ├── Pubfig
+    │   │   ├── untargetted
+    │   │   │   ├── FR_edge.ipynb, FR_server.ipynb, PGD_fr.py, WB_fr.py
+    │   │   │   ├── results
+    │   │   │   │   ├── WB
+    │   │   │   │   ├── PGD
+    │   │   ├── targetted
+    │   │   │   ├── ******
+    │   │   │   ├── results
+    │   ├── Mnist
+    │   │   ├── attacks.ipynb
+    │   │   ├── ModelGen.ipynb
+    │   │   ├── PCA_TSNE.ipynb
+    │   │   ├── results
+    ├── pruning
+    │   ├── ModelGen.ipynb
+    │   ├── generateImagePerClass.ipynb
+    │   ├── attacks
+    │   │   ├── DIVA_pqat.py, DIVA_prune.py, PGD_pqat.py, PGD_prune.py
+    │   ├── evaluation
+    │   ├── results
+    │   │   ├── prune
+    │   │   │   ├── DIVA
+    │   │   │   ├── PGD
+    │   │   ├── pqat
+    │   │   │   ├── DIVA
+    │   │   │   ├── PGD
+    ├── robustness
+    │   ├── notebook
+    │   ├── attackandeval.ipynb
 
 > Machine Configurations
 
