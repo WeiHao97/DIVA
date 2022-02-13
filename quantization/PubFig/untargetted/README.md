@@ -25,7 +25,7 @@ The workfollow is as follow:
 - Record the confidence scores from the tflite model for top-1 attack.
 - Evaluate the instability between the FP and the tflite model.
 
-> Part 4 (../../evaluation/FR_evaluation.ipynb)
+> Part 4 (FR_evaluation.ipynb)
 - Cauculate the Confidence delta:
     - between FP model and tflite model on Original images
     - between FP model and tflite model on PGD attacked images  
