@@ -50,7 +50,7 @@ cd into pruning/attacks and run scripts with python3
 - The attack results, including generated images, filters and statistics, are stored under pruning/results
 
 ### Evaluation
-Run pruning/generateImagePerClass.ipynb with jupyter notebook.
+Run pruning/pruningEvaluation.ipynb with jupyter notebook.
 Note: for the DSSIM part, please download from https://github.com/kornelski/dssim
 
 This evaluation includes:
