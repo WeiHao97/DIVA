@@ -19,14 +19,15 @@
     │   │   ├── WBattack.py,semiBBattack.py,PGD.py
     │   │   ├── model_generate_*.ipynb
     │   │   ├── generateImagePerClass.ipynb
+    |   |   ├── quantizationEvaluation.ipynb
     │   │   ├── results
     │   │   │   ├── WB
     │   │   │   ├── PGD
     │   │   │   ├── SemiBB
-    │   ├── evaluation
     │   ├── Pubfig
     │   │   ├── untargetted
-    │   │   │   ├── FR_edge.ipynb, FR_server.ipynb, PGD_fr.py, WB_fr.py
+    │   │   │   ├── FR_edge.ipynb, FR_server.ipynb, FR_evaluation.ipynb
+    │   │   │   ├── PGD_fr.py, WB_fr.py
     │   │   │   ├── results
     │   │   │   │   ├── WB
     │   │   │   │   ├── PGD
