@@ -1,4 +1,5 @@
 # README
+This directory contains code corresponding to section 5.4 of the paper.
 
 ## Dependencies
 
