@@ -14,7 +14,7 @@ The 3 trained model should be saved as
 
 ### Datasets
 
-- ImageNet2012: under datasets/ImageNet
+- Download ImageNet2012(https://image-net.org/) and extract files under ``DIVA/datasets/ImagNet``.
 
 ## Workflow
 
@@ -49,4 +49,12 @@ cd into pruning/attacks and run scripts with python3
 - The attack results, including generated images, filters and statistics, are stored under pruning/results
 
 ### Evaluation
-See pruning/evaluation/README.md for details.
+Run pruning/generateImagePerClass.ipynb with jupyter notebook.Note: for the DSSIM data,please download from https://github.com/kornelski/dssim
+
+The evaluation includes:
+- Basic Stats: steps, time, success number
+- DSSIM Data
+- Confidence Delta Calculation
+- Stability Analysis
+
+The result is saved in pruning/results/evaluation.csv
