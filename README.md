@@ -10,7 +10,7 @@
     │   │   ├── imagenet_extracted_files
     │   │   ├── quantization
     │   │   │   ├── 3kImages
-    │   ├── pruning
+    │   │   ├── pruning
     │   │   │   ├── 3kImages
     │   ├── Pubfig
     ├── weights
@@ -31,8 +31,6 @@
     │   │   │   │   ├── WB
     │   │   │   │   ├── PGD
     │   │   ├── targetted
-    │   │   │   ├── ******Aahile****
-    │   │   │   ├── results
     │   ├── Mnist
     │   │   ├── attacks.ipynb
     │   │   ├── ModelGen.ipynb
