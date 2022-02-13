@@ -7,7 +7,6 @@ Folder Structure Conventions
     │   ├── ImageNet
     │   ├── quantization
     │   │   ├── 3kImages
-    
     │   ├── pruning
     │   │   ├── 3kImages
     └── ...
