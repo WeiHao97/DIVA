@@ -22,7 +22,7 @@ Run model_generate_\*.ipynb with jupyter notebook.
 
 ### Generate 3k Images for Attack
 
-Run quantization/ImageNet/generateImagePerClass.ipynb with jupyter notebook.
+Run generateImagePerClass.ipynb with jupyter notebook.
 
 - This should generate a dataset of 3000 images that all models (full-precision, quantized model, Surrogate full-precision) of all networks (ResNet, DenseNet, MobileNet) agree on.
 - The generated dataset should be stored and imported from datasets/ImageNet/quantization/3kImages
