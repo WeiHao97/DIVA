@@ -13,6 +13,8 @@
 - On Edge:
 >``python3 -m pip install notebook tflite-runtime`` with Python 3.8.8
 
+- Datasets:
+> We employ ImageNet, MNIST and PubFig in our experiments. PubFig is included in the zip file. ImageNet2012 has to be download manually from https://image-net.org/challenges/LSVRC/2012/ and extracted to DIVA/datasets/ImageNet, the code parses it automatically. MNIST is automatically loaded from TensorFlow Datasets by the code. You don't need to load any dataset on the edge except the \*.npy files generated in the PubFig scripts.
 
 ## Machine Configurations
 
