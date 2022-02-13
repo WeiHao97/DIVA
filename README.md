@@ -7,7 +7,7 @@
     .
     ├── datasets
     │   ├── ImageNet
-    │   │   ├── imagenet stuff
+    │   │   ├── imagenet_extracted_files
     │   │   ├── quantization
     │   │   │   ├── 3kImages
     │   ├── pruning
@@ -16,8 +16,8 @@
     ├── weights
     ├── quantization
     │   ├── ImageNet
-    │   │   ├── attacks.py
-    │   │   ├── ModelGen.ipynb
+    │   │   ├── WBattack.py,semiBBattack.py,PGD.py
+    │   │   ├── model_generate_*.ipynb
     │   │   ├── generateImagePerClass.ipynb
     │   │   ├── results
     │   │   │   ├── WB
@@ -31,7 +31,7 @@
     │   │   │   │   ├── WB
     │   │   │   │   ├── PGD
     │   │   ├── targetted
-    │   │   │   ├── ******
+    │   │   │   ├── ******Aahile****
     │   │   │   ├── results
     │   ├── Mnist
     │   │   ├── attacks.ipynb
@@ -53,7 +53,7 @@
     │   │   │   ├── PGD
     ├── robustness
     │   ├── notebook
-    │   ├── attackandeval.ipynb
+    │   │   ├── DIVA_under_robust_trained_model.ipynb
 
 > Machine Configurations
 
