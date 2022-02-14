@@ -8,6 +8,8 @@ enable_eager_execution()
 from tensorflow import keras
 import tensorflow_model_optimization as tfmot
 
+import json
+
 import time
 import keras_vggface
 from tensorflow.python.keras import backend
