@@ -16,7 +16,6 @@ This directory is derived from https://github.com/MadryLab/robustness, It contai
 
         ``Total: {} \t Success: {} \t Q_W:{} \t FP_W:{} \t Robust_acc: {:.2f}``
     
-        - Success/Total gives the success rate evaluated in the paper
+        - Success/Total gives the success rate and Robust\_acc gives the robustness accuracy evaluated in the paper evaluated in the paper.Q\_W and FP\_W gives the number of mis-predictions by the full-precision and the quantized model after attack.
 
     - Generate the attack using DIVA and output the above metrics
-    - The result will show the success rate of DIVA is higher than PGD, but the robust accuracies of the two are close.
