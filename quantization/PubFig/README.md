@@ -1,6 +1,6 @@
 This directory corresponds to section 6 of the paper.
 
-Since the case study practiced the full path of: dataset generation, model generation, attack generation on both server and edge, evaluation of top-1/top-5 scores and confidence delta, and graph generation for visualization, we decided to upload the full artifacts used in this section. You can download the structured zip file through this link: "*******CallofAE******"
+Since the case study practiced the full path of: dataset generation, model generation, attack generation on both server and edge, evaluation of top-1/top-5 scores and confidence delta, and graph generation for visualization, we decided to upload the full artifacts used in this section. You can download the structured zip file through this link: "https://drive.google.com/file/d/1jy7AVFU8v8lbt8rcTWabV5-WLg9BjRcd/view"
 
 The zip file includes:
 
