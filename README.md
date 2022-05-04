@@ -1,8 +1,5 @@
 # [A Tall of Two Models: Constructing Evasive Attacks on Edge Models](https://proceedings.mlsys.org/paper/2022/file/92cc227532d17e56e07902b254dfad10-Paper.pdf)
 
-## BibTeX Citation
-If you want to cite DIVA, we would appreciate using the following citations:
-
 ```
 
 @article{hao2022tale,
