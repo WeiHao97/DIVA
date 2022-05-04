@@ -1,4 +1,12 @@
-# A Tall of Two Models: Constructing Evasive Attacks on Edge Models
+# [A Tall of Two Models: Constructing Evasive Attacks on Edge Models](https://proceedings.mlsys.org/paper/2022/file/92cc227532d17e56e07902b254dfad10-Paper.pdf)
+
+@article{hao2022tale,
+  title={A Tale of Two Models: Constructing Evasive Attacks on Edge Models},
+  author={Hao, Wei and Awatramani, Aahil and Hu, Jiayang and Mao, Chengzhi and Chen, Pin-Chun and Cidon, Eyal and Cidon, Asaf and Yang, Junfeng},
+  journal={Proceedings of Machine Learning and Systems},
+  volume={4},
+  year={2022}
+}
 
 ## Dependencies
 
